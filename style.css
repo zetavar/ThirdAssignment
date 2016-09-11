@@ -16,14 +16,16 @@ strong{
 }
 
 .lheader{
+    float: left;
     font-family: Georgia;
     font-size: 18px;
-    width: 50%;
+    width: 40%;
 }
 
 #rightheader{
     float: right;
-    overflow: hidden;
+    white-space: nowrap;
+    margin-right: 10px;
 }
 
 .rheader{
@@ -36,6 +38,7 @@ strong{
     text-decoration: underline;
     text-align: right;   
     letter-spacing: -0.5px;
+
 }
 
 #header p{
