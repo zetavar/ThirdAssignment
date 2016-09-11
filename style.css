@@ -1,0 +1,134 @@
+body{
+    font-family: Trebuchet MS;
+    font-size: 12px;
+}
+
+#header{
+    height: 20px;
+    border-bottom: 1px solid #ccc;
+    background-position: absolute;
+    top: 0;
+    width: 100%;
+    }
+
+strong{
+    font-weight: bold;
+}
+
+.lheader{
+    font-family: Georgia;
+    font-size: 18px;
+    width: 50%;
+}
+
+#rightheader{
+    float: right;
+    overflow: hidden;
+}
+
+.rheader{
+    font-weight: bold;
+    text-align: right;
+}
+
+.rrheader{
+    color: #00428f;
+    text-decoration: underline;
+    text-align: right;   
+    letter-spacing: -0.5px;
+}
+
+#header p{
+  display: inline-block;
+  margin: 0 0.5%;
+}
+
+#rightpart{
+    width: 30%;
+    height: 9cm;
+    background-position: absolute;
+    left: 0;
+    margin: 0 0 0 0;
+    padding: 5px 5px 5px 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-top: 0;
+    color: #00428f;
+    float:left;
+}
+
+#rightpart li{
+    margin-bottom: 5px;
+}
+
+ul.outlist{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul.nestedlist{
+    padding-left: 10px;
+    margin-left: 0;
+}
+
+.outlist{
+    list-style-type: none;
+   
+}
+
+.nestedlist{
+    list-style-type: none;
+}
+
+.theselected{
+    border-color: #790101;
+    background-color: #ad2121;
+    color: white;
+    padding: 3px 3px 3px 3px;
+    font-style: italic;
+}
+
+#middle{
+    width: 40%;
+    height: 9cm;
+    float: left;
+    margin: 0 15px 10px 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+.file{
+    color: #99c;
+}
+
+#leftpart{
+    float: right;
+    overflow: hidden;
+    width: 20%;
+    height: auto;
+    background-color: #eee;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    color: #333;
+    clear: right;
+    margin-top: 25px;
+}
+
+#leftpart img{
+    width: 100%;
+    height: 100%;
+
+}
+
+h1{
+    font-size: 18px;
+}
+
+#footnote{
+clear: both;
+text-align: center;
+padding-top: 5px;
+margin: 0 28% 0 28%;
+color: #999;
+border-top: 1px solid #ccc;
+}
